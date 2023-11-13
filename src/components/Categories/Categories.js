@@ -7,7 +7,8 @@ function Categories() {
     return (
         <div className="container">
             <div className="categories">
-                <CategoryButton h={"300px"} w={"20px"} />
+                <CategoryButton h="211px" w="633px" />
+                <CategoryButton h="211px" w="316px" />
             </div>
         </div>
     );

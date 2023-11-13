@@ -1,12 +1,12 @@
 import "./CategoryButton.css"
 
-function CategoryButton({ h, w }) {
+function CategoryButton(props) {
     return (
         <div style={{
             backgroundColor: "#242424",
             borderRadius: "50px",
-            height: { h },
-            width: { w },
+            height: props.h,
+            width: props.w,
         }}>
             <p>Кнопка</p>
         </div>

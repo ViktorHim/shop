@@ -2,13 +2,14 @@ import "./CategoryButton.css"
 
 function CategoryButton(props) {
     return (
-        <div style={{
-            backgroundColor: "#242424",
-            borderRadius: "50px",
-            height: props.h,
-            width: props.w,
+        <div 
+        className="category__button"
+        style={{
+            gridColumn: props.column,
+            gridRow: props.row
         }}>
-            <p>Кнопка</p>
+            <img src={props.content.iconLink}></img>
+            <p>{props.content.text}</p>
         </div>
     );
 }

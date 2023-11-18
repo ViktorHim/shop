@@ -1,6 +1,10 @@
-.categories {
+.categories__grid {
     background-color: #141414;
     height: 90vh;
     border-radius: 30px;
-    padding: 70px;
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-template-rows: repeat(3, 1fr);
 }

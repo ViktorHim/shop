@@ -1,4 +1,5 @@
-import CategoryButton from "../CategoryButton/CategoryButton"
+import CategoryButton from "../CategoryButton/CategoryButton";
+import cart from "../../icons/header/cart.svg";
 
 import "./Categories.css"
 import "../../App.css"
@@ -6,9 +7,15 @@ import "../../App.css"
 function Categories() {
     return (
         <div className="container">
-            <div className="categories">
-                <CategoryButton h="211px" w="633px" />
-                <CategoryButton h="211px" w="316px" />
+            <div className="categories__grid">
+                <CategoryButton column="span 2" row="span 1" content={{ iconLink: {cart}, text: "Кроссовки" }} />
+                <CategoryButton column="span 1" row="span 1" content={{ iconLink: {cart}, text: "Кроссовки" }} />
+                <CategoryButton column="span 1" row="span 2" content={{ iconLink: {cart}, text: "Кроссовки" }} />
+                <CategoryButton column="span 1" row="span 1" content={{ iconLink: {cart}, text: "Кроссовки" }} />
+                <CategoryButton column="span 2" row="span 1" content={{ iconLink: {cart}, text: "Кроссовки" }} />
+                <CategoryButton column="span 1" row="span 1" content={{ iconLink: {cart}, text: "Кроссовки" }} />
+                <CategoryButton column="span 1" row="span 1" content={{ iconLink: {cart}, text: "Кроссовки" }} />
+                <CategoryButton column="span 2" row="span 1" content={{ iconLink: {cart}, text: "Кроссовки" }} />
             </div>
         </div>
     );

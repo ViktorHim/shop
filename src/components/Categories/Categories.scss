@@ -1,5 +1,6 @@
-.categories__grid {
-    background-color: #141414;
+@import '../../styles/variables.scss';
+.categories {
+    background-color: $dark-gray;
     height: 90vh;
     border-radius: 30px;
     padding: 50px 50px;

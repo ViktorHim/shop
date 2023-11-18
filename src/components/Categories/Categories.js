@@ -1,8 +1,7 @@
 import CategoryButton from "../CategoryButton/CategoryButton";
 import cart from "../../icons/header/cart.svg";
 
-import "./Categories.css"
-import "../../App.css"
+import "./Categories.scss"
 
 function Categories() {
     return (

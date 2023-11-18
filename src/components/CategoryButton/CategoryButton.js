@@ -1,4 +1,4 @@
-import "./CategoryButton.css"
+import "./CategoryButton.scss"
 
 function CategoryButton(props) {
     return (

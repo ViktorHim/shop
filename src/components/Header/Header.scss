@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .header {
     padding-top: 20px;
     margin-bottom: 20px;
@@ -21,12 +23,12 @@
     display: block;
     width: 20px;
     height: 20px;
-    color: #D9D9D9;
+    color: $dim-gray;
 }
 
 .action__lang {
     line-height: 1;
     display: block;
     font-size: 24px;
-    color: #D9D9D9;
+    color: $dim-gray;
 }

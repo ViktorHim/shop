@@ -1,5 +1,4 @@
-import './Header.css'
-import '../../App.css'
+import './Header.scss'
 import cart from '../../icons/header/cart.svg'
 import profile from '../../icons/header/profile.svg'
 import SearchBar from '../SearchBar/SearchBar';
@@ -11,7 +10,7 @@ const Header = () => {
         <div className="container">
             <nav className='navigation'>
                 <a href="#"><img src="" alt="logo"/></a>
-                <SearchBar/>
+                <SearchBar placeholder="fuck you"/>
                 <ul className="actions">
                     <li><a href="#" className="action__item"><img src={cart} alt ="cart"></img></a></li>
                     <li><a href="#" className="action__item"><img src={profile} alt ="profile"></img></a></li>

@@ -1,5 +1,7 @@
+@import '../../styles/variables.scss';
+
 .category__button {
-    background-color: #242424;
+    background-color: $gray;
     border-radius: 50;
     height: 30px;
     width: 30px;

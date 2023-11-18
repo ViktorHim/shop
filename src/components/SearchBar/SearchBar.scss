@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .search-bar {
 
 }
@@ -9,7 +11,7 @@
     align-items: center;
     justify-content:space-between;
     border-radius: 50px;
-    background-color: #D9D9D9;
+    background-color: $dim-gray;
     padding: 0 15px;
 }
 
@@ -27,9 +29,8 @@
     background: transparent;
     border: 0;
     outline: none;
-}
-
-.search-bar__btn img {
-    width: 25px;
-    height: 25px;
+    img {
+        width: 25px;
+        height: 25px;
+    }
 }

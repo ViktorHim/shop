@@ -1,5 +1,6 @@
+@import '../../styles/variables.scss';
 .categories {
-    background-color: #141414;
+    background-color: $dark-gray;
     height: 90vh;
     border-radius: 30px;
     padding: 70px;

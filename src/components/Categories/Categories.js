@@ -1,7 +1,6 @@
 import CategoryButton from "../CategoryButton/CategoryButton"
 
-import "./Categories.css"
-import "../../App.css"
+import "./Categories.scss"
 
 function Categories() {
     return (

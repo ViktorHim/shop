@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 *{
   margin: 0;
   padding: 0;
@@ -11,13 +13,10 @@
 }
 
 body {
-  background-color: #000;
+  background-color: $bg;
 }
 
 a {
   text-decoration: none;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> yar
+

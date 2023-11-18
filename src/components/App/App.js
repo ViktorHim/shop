@@ -1,6 +1,6 @@
-import Header from './components/Header/Header';
-import Categories from "./components/Categories/Categories"
-import './App.css';
+import Header from '../Header/Header';
+import Categories from "../Categories/Categories"
+import './App.scss';
 
 function App() {
   return (

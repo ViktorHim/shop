@@ -1,0 +1,32 @@
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 0px;
+    &__list {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-shrink: 0;
+    }
+    &__field {
+        overflow: hidden;
+        width: 80%;
+    }
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+.reverse {
+    transform: rotate(180deg);
+}
+
+.disable {
+    opacity: 0.5;
+}
+

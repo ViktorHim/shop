@@ -1,0 +1,12 @@
+@import '../../../styles/variables.scss';
+
+.slide {
+    border-radius: 50px;
+    height: 95px;
+    background-color: $light-gray;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in;
+}

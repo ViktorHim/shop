@@ -1,15 +1,15 @@
 import "./CategoryButton.scss"
 
-function CategoryButton(props) {
+function CategoryButton({row, column, content}) {
     return (
         <div 
         className="category__button"
         style={{
-            gridColumn: props.column,
-            gridRow: props.row
+            gridColumn: column,
+            gridRow: row
         }}>
-            <img src={props.content.iconLink}></img>
-            <p>{props.content.text}</p>
+            <img src={content.iconLink}></img>
+            <p>{content.text}</p>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import "./CategoryButton.scss"
 
 function CategoryButton({row, column, content}) {
     return (
-        <div 
+        <div
         className="category__button"
         style={{
             gridColumn: column,

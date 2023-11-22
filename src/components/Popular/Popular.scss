@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.popular {
+    padding: 50px 70px 120px 70px;
+    background-color: $dark-gray;
+    border-radius: 30px;
+    &__title {
+        color: white;
+        text-align: center;
+        font-size: 64px;
+        margin-bottom: 64px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+}

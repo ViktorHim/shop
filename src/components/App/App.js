@@ -2,6 +2,8 @@ import Header from '../Header/Header';
 import Categories from "../Categories/Categories"
 import Slider from '../Slider/Slider';
 import Footer from '../Footer/Footer';
+import Popular from '../Popular/Popular';
+import Guide from '../Guide/Guide';
 import './App.scss';
 
 function App() {
@@ -16,7 +18,10 @@ function App() {
       <Header/>
       <Categories/>
       <Slider urls={imageUrls} slidesOnScreen={4}/>
+      <Popular></Popular>
+      <Guide></Guide>
       <Footer></Footer>
+
     </div>
   );
 }

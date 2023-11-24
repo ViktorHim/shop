@@ -3,8 +3,6 @@ import Slider from '../components/Slider/Slider';
 import Popular from '../components/Popular/Popular';
 import Guide from '../components/Guide/Guide';
 
-import "../App.scss";
-
 function HomePage() {
 
     let imageUrls = [];
@@ -13,13 +11,12 @@ function HomePage() {
     }
 
     return (
-        <div className="App">
+        <>
             <Categories />
             <Slider urls={imageUrls} slidesOnScreen={4} />
             <Popular></Popular>
             <Guide></Guide>
-
-        </div>
+        </>
     );
 }
 

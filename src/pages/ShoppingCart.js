@@ -2,7 +2,7 @@
 
 export default function ShoppingCart() {
     return (
-        <p>
+        <p style={{color: 'white'}}>
             Привет
         </p>
     );

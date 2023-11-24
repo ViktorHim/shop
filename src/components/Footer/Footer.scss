@@ -10,6 +10,10 @@
     border-top-right-radius: 30px;
     &__link {
         margin-bottom: 35px;
+        img {
+            height: 80px;
+            border-radius: 50px;
+        }
     }
     &__list {
         display: flex;

@@ -1,6 +1,6 @@
 
 
-export default function ShoppingCart() {
+function ShoppingCart() {
     return (
         <p>
             Привет
@@ -8,3 +8,4 @@ export default function ShoppingCart() {
     );
 }
 
+export default ShoppingCart;

@@ -15,10 +15,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img {
-        height: 80px;
-        border-radius: 40px;
-    }
 }
 
 .actions {
@@ -34,9 +30,13 @@
 .action__item {
     margin-right: 30px;
     display: block;
-    width: 20px;
-    height: 20px;
+    height: 50px;
+    width: 50px;
     color: $dim-gray;
+    img {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 .action-login {
@@ -49,7 +49,16 @@
 
 .action__lang {
     line-height: 1;
-    display: block;
+    display: flex;
     font-size: 24px;
     color: $dim-gray;
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 80px;
+    border-radius: 40px;
 }

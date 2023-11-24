@@ -19,7 +19,7 @@ const Header = () => {
     <header className="header">
         <div className="container">
             <nav className='navigation'>
-                <Link to="/"><img src={logo} alt="logo"/></Link>
+                <Link to="/"><img src={logo} alt="logo" className='logo'/></Link>
                 <SearchBar placeholder="Что будем искать?"/>
                 <ul className="actions">
                     <li><Link to="/shopping_cart" className="action__item"><img src={cart} alt ="cart"></img></Link></li>

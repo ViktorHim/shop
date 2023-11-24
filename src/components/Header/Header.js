@@ -2,7 +2,7 @@ import './Header.scss'
 import cart from '../../icons/header/cart.svg'
 import profile from '../../icons/header/profile.svg'
 import SearchBar from '../SearchBar/SearchBar';
-
+import {Link } from 'react-router-dom';
 
 const Header = () => {
     return(
@@ -12,7 +12,7 @@ const Header = () => {
                 <a href="#"><img src="" alt="logo"/></a>
                 <SearchBar placeholder="fuck you"/>
                 <ul className="actions">
-                    <li><a href="#" className="action__item"><img src={cart} alt ="cart"></img></a></li>
+                    <li><Link to="/shopping_cart" className="action__item"><img src={cart} alt ="cart"></img></Link></li>
                     <li><a href="#" className="action__item"><img src={profile} alt ="profile"></img></a></li>
                     <li><a href="#" className="action__lang">ru</a></li>
                 </ul>

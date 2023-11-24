@@ -33,9 +33,16 @@ const Modal = ({showModal, setShowModal}) => {
     useEffect(
         () => {
             document.addEventListener('keydown', keyPress);
-            return () => document.removeEventListener('keydown', keyPress);
+            if(showModal) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = 'auto';
+            }
+            return () => {
+                document.removeEventListener('keydown', keyPress);
+            };
         },
-        [keyPress]
+        [keyPress, showModal]
     );
 
   return (

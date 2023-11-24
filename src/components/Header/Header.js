@@ -6,7 +6,7 @@ import Modal from '../Modal/Modal'
 
 import SearchBar from '../SearchBar/SearchBar';
 import {Link } from 'react-router-dom';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Header = () => {
     const [showModal, setShowModal] = useState(false);

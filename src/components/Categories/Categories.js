@@ -1,5 +1,5 @@
 import CategoryButton from "../CategoryButton/CategoryButton";
-import cart from "../../icons/header/cart.svg";
+import cart from "../../assets/icons/header/cart.svg";
 
 import "./Categories.scss"
 

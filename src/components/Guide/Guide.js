@@ -1,8 +1,8 @@
 import './Guide.scss'
-import telegram from '../../icons/guide/telegram_icon.svg'
-import cart from '../../icons/guide/shopping_cart.svg'
-import bag from '../../icons/guide/shopping_bag.svg'
-import search from '../../icons/guide/manage_search.svg'
+import telegram from '../../assets/icons/guide/telegram_icon.svg'
+import cart from '../../assets/icons/guide/shopping_cart.svg'
+import bag from '../../assets/icons/guide/shopping_bag.svg'
+import search from '../../assets/icons/guide/manage_search.svg'
 
 
 const Guide = () => {

@@ -1,5 +1,5 @@
 import './SearchBar.scss'
-import search from '../../icons/header/search.svg'
+import search from '../../assets/icons/header/search.svg'
 
 const SearchBar = ({placeholder}) => {
     return (

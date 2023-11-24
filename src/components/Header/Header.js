@@ -1,7 +1,7 @@
 import './Header.scss'
-import cart from '../../icons/header/cart.svg'
-import profile from '../../icons/header/profile.svg'
-import logo from '../../icons/header/logo.svg'
+import cart from '../../assets/icons/header/cart.svg'
+import profile from '../../assets/icons/header/profile.svg'
+import logo from '../../assets/icons/header/logo.svg'
 import Modal from '../Modal/Modal'
 
 import SearchBar from '../SearchBar/SearchBar';

@@ -1,5 +1,5 @@
 import './ProductCard.scss'
-import cart from '../../icons/product/add.svg'
+import cart from '../../assets/icons/product/add.svg'
 
 const ProductCard = () => {
   return (

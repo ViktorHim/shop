@@ -1,10 +1,8 @@
-
+import Cart from "../components/Cart/Cart";
 
 export default function ShoppingCart() {
     return (
-        <p style={{color: 'white'}}>
-            Привет
-        </p>
+        <Cart/>
     );
 }
 

@@ -17,6 +17,7 @@
         height: 550px;
         border-radius: 15px;
         background-color: $gray;
+        padding: 100px 70px;
     }
     &__close {
         position: absolute;
@@ -27,5 +28,64 @@
         img {
             height: 40px;
         }
+    }
+    &.modal__content {
+        
+    }
+}
+
+.tab-header-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    width: 100%;
+    padding: 5px 5px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: $dark-gray;
+}
+
+
+
+.tab-header-item {
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.tab-header-item_active {
+    background-color: $gray;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    input {
+        color: white;
+        margin-bottom: 25px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        width: 100%;
+        background-color: $dark-gray;
+        padding-left: 15px;
+    }
+    input:focus {
+        outline: 2px solid black;
+      }
+    button {
+        height: 50px;
+        width: 80%;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color: $add-color;
+        border: none;
+        color: white;
     }
 }

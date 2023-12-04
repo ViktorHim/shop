@@ -1,0 +1,72 @@
+@import '../../styles/variables.scss';
+
+.product__info {
+    height: 80vh;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 20px;
+    color: white;
+
+    &__img {
+        border-radius: 30px;
+        grid-row: span 8;
+        grid-column: span 1;
+        background-color: $dim-gray;
+    }
+
+    &__title {
+        grid-row: span 1;
+        grid-column: span 1;
+        color: white;
+    }
+
+    &__price {
+        grid-row: span 1;
+        grid-column: span 1;
+
+        font-size: $h1;
+    }
+
+    &__colors {
+        grid-row: span 2;
+        grid-column: span 1;
+        background-color: $dark-gray;
+        border-radius: 30px;
+        align-items: center;
+        font-size: 20;
+    }
+
+    &__sizes {
+        grid-column: span 1;
+        grid-row: span 2;
+        background-color: $dark-gray;
+        border-radius: 30px;
+        align-items: center;
+        font-size: 20;
+    }
+
+    &__add-to-cart-button {
+        grid-column: span 1;
+        grid-row: span 1;
+        background-color: $add-color;
+        border-color: transparent;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 32;
+    }
+
+    &__order-button {
+        grid-column: span 1;
+        border-color: transparent;
+        grid-row: span 1;
+        background-color: $order-color;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 32;
+        
+    }
+}
